@@ -4,7 +4,7 @@ const track = document.getElementById("recursion-track");
 if (track) {
   let unit = "agents ";
   for (let i = 0; i < 30; i++) unit += "building agents ";
-  unit += "building <em>slop.</em> ";
+  unit += "building <em>slop.</em><br>";
   track.innerHTML = unit + unit;
 }
 
