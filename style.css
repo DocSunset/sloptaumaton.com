@@ -76,6 +76,14 @@ p { margin: 0 0 1rem; }
 .project { margin: 0 0 1rem; }
 .project .name { font-weight: 700; }
 .soon { color: var(--faint); }
+.tag {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--faint);
+  margin-top: 0.25rem;
+}
 
 .crumb { color: var(--faint); margin-bottom: 3rem; }
 .crumb-sub {
