@@ -1,0 +1,5 @@
+# GitHub Pages builds this repo with Jekyll; keep the working notes off the public site.
+exclude:
+  - status.md
+  - ideas.md
+  - documentary

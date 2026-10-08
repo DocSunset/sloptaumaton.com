@@ -1,0 +1,32 @@
+# sloptaumatons — status
+
+Revived 2026-10-08 as the user's AI company: the umbrella for earning money with agents
+(first goal: pay for a new computer). Until then this repo was only the holding-company
+site (`index.html`, `why.html` — the prospectus is the brand voice; read it first).
+
+## Settled
+- **The user's name can be on the company.** The one line: agents never post *as him*.
+  Agents may post under their own clearly-labelled account (platform bot labels on).
+- **House of brands.** Most products get their own storefront where their buyers already
+  are (Steam, Etsy, app stores, landing pages), with a footer credit linking back —
+  "made by recursive sloptaumatons".
+- **sloptaumatons.com = portfolio + services.** Every shipped product doubles as a case
+  study for the services (workshops, AI sprints, agent-readiness).
+- **Social posts show the work** (artifacts, demos, documentary excerpts), never
+  engagement bait. The user's role is editor: approve or kill a queue, ~10 min/day.
+
+## Ideas
+The flagged inventory, sorted against the brand: `ideas.md`.
+
+## Open
+- Pick a first venture. Proposed sort: cash in 90 days vs. hours/week of his time.
+- Agent-readiness service: how to measure that it works (proposal: test agents making
+  real booking requests, track found/booked before vs. after).
+- Footer link `recursive.sloptaumatons.com` needs a DNS subdomain (or use the apex).
+- Site's project list predates archive/2026 (v.ibepost was archived) — refresh it when
+  the site is next touched.
+- Proposed first social test: the bot account posts the first pen-plotter edition.
+
+## Siblings
+Monorepo branch `sloptaumatons-revival` adds the kanban card `sloptaumatons.com`.
+Related earlier sketch: `projects/sloptaumaton-learning-study-engine/`.
