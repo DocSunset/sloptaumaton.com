@@ -22,6 +22,13 @@ reply/park gestures, web push) comes back with this purpose. Guard against what 
 it: it was turning into an agent-orchestration harness. The feed is of *material*, not
 of agents.
 
+**Lanes** (a sense, not a fixed list — user, 2026-10-08): posts, blogs, itch.io games,
+tiny tools, agent tools, agent kits, generative art, byproduct tools; parts maybe.
+
+**Inputs — not only him.** The system should also scrape value from everywhere,
+passively and actively: e.g. the evolution of `projects/`, his Claude usage logs. If
+fringe resumes, this kind of ingestion could live in fringe.
+
 ## Settled
 - **The user's name can be on the company.** The one line: agents never post *as him*.
   Agents may post under their own clearly-labelled account (platform bot labels on).
