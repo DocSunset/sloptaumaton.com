@@ -28,6 +28,13 @@ The draft inventory lands there: `reports/post-draft-inventory.md` (branch
 ## Ideas
 The flagged inventory, sorted against the brand: `ideas.md`.
 
+## Ground rules (user, 2026-10-08) — guide all sloptaumaton work
+- **Agents never post into human communities** (Reddit, forums, Discords…). If we post
+  there, the user writes it. Agents post only on the company's own labelled accounts.
+- **Spend stays below earnings.** Earnings are zero, so spend is zero: no ads, no new
+  domains (use paths/subdomains of sloptaumatons.com), no paid listings yet.
+- **No services for now** — products only.
+
 ## Goal and KPIs (user, 2026-10-08)
 See how much money we can make, how fast. KPIs: **speed and quantity** — without sucking,
 without eating his time (or at least being fun when it does). No single pick: **validate
