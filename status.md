@@ -12,8 +12,18 @@ site (`index.html`, `why.html` — the prospectus is the brand voice; read it fi
   "made by recursive sloptaumatons".
 - **sloptaumatons.com = portfolio + services.** Every shipped product doubles as a case
   study for the services (workshops, AI sprints, agent-readiness).
+- **Socials run on the company account** (decided 2026-10-08): agents post as
+  sloptaumatons, labelled as a bot; the user is editor, the voice is theirs.
 - **Social posts show the work** (artifacts, demos, documentary excerpts), never
   engagement bait. The user's role is editor: approve or kill a queue, ~10 min/day.
+
+## The social pipeline — first build (to be drafted)
+Harvest the post drafts already scattered across projects; generate new ones from the
+work logs on a schedule; queue them for the user to critique, approve and direct; learn
+from every verdict. **v.ibepost** (`archive/2026/vibepost`, to be un-archived) becomes
+this pipeline's storefront — its design intent gets refactored, possibly drastically.
+The draft inventory lands there: `reports/post-draft-inventory.md` (branch
+`sloptaumatons-revival`).
 
 ## Ideas
 The flagged inventory, sorted against the brand: `ideas.md`.
@@ -28,5 +38,6 @@ The flagged inventory, sorted against the brand: `ideas.md`.
 - Proposed first social test: the bot account posts the first pen-plotter edition.
 
 ## Siblings
-Monorepo branch `sloptaumatons-revival` adds the kanban card `sloptaumatons.com`.
+Monorepo branch `sloptaumatons-revival` adds the kanban card `sloptaumatons.com`;
+vibepost branch `sloptaumatons-revival` holds the draft inventory.
 Related earlier sketch: `projects/sloptaumaton-learning-study-engine/`.
