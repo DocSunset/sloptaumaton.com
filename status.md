@@ -4,6 +4,24 @@ Revived 2026-10-08 as the user's AI company: the umbrella for earning money with
 (first goal: pay for a new computer). Until then this repo was only the holding-company
 site (`index.html`, `why.html` — the prospectus is the brand voice; read it first).
 
+## Purpose (user, 2026-10-08)
+Real business with minimal human effort. Revenue from **everything except** the passion
+projects (slowglass, muboneapp… ship on his schedule regardless of market fit): the
+million product ideas, the byproducts of the work he cares about (e.g. his approach to
+agents), the output of the sloptaumatic processes themselves.
+
+**The machine:** pipelines that refine material stage by stage through the lens of his
+feedback and expressed taste — e.g. game ideas → he reacts → prototypes → he reacts → …
+→ a high-quality game he enjoys playing → published, earning. His whole job, ideally: a
+little feedback every day, by scrolling a feed of agent-made material over lunch or
+before bed. vibepost is the same shape for social posts (residue of daily AI dev work →
+a decent social presence).
+
+**Tiller-shaped.** The retired tiller (`archive/2026/tiller`: phone feed of cards,
+reply/park gestures, web push) comes back with this purpose. Guard against what retired
+it: it was turning into an agent-orchestration harness. The feed is of *material*, not
+of agents.
+
 ## Settled
 - **The user's name can be on the company.** The one line: agents never post *as him*.
   Agents may post under their own clearly-labelled account (platform bot labels on).
