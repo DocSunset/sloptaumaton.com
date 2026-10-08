@@ -1,81 +1,89 @@
 # sloptaumatons — status
 
-Revived 2026-10-08 as the user's AI company: the umbrella for earning money with agents
-(first goal: pay for a new computer). Until then this repo was only the holding-company
-site (`index.html`, `why.html` — the prospectus is the brand voice; read it first).
+Revived 2026-10-08 as the user's AI company. Until then this repo was only the
+holding-company site (`index.html`, `why.html` — the prospectus is the brand voice; read
+it first). Everything below was settled with him in one late-night session; the story is
+in `documentary/`.
 
-## Purpose (user, 2026-10-08)
+## Resume here
+Design is talked through; **nothing is built.** Next: a short design note for the feed —
+what a card is, which reactions it supports, how a lane moves material between stages —
+then the first build: **the feed + the posts lane** (93 harvested drafts mean there is
+something to scroll on day one). Open decision (his): build the feed standalone or inside
+fringe, if fringe resumes.
+
+## Purpose (user)
 Real business with minimal human effort. Revenue from **everything except** the passion
 projects (slowglass, muboneapp… ship on his schedule regardless of market fit): the
 million product ideas, the byproducts of the work he cares about (e.g. his approach to
-agents), the output of the sloptaumatic processes themselves.
+agents), and the output of the sloptaumatic processes themselves.
 
-**The machine:** pipelines that refine material stage by stage through the lens of his
-feedback and expressed taste — e.g. game ideas → he reacts → prototypes → he reacts → …
-→ a high-quality game he enjoys playing → published, earning. His whole job, ideally: a
-little feedback every day, by scrolling a feed of agent-made material over lunch or
-before bed. vibepost is the same shape for social posts (residue of daily AI dev work →
-a decent social presence).
+**KPIs:** how much money, how fast — speed and quantity, without sucking, without eating
+his time (or at least fun when it does). Don't pick one venture: get many things in
+front of people in measurable ways and lean toward the reaction.
 
-**Tiller-shaped.** The retired tiller (`archive/2026/tiller`: phone feed of cards,
-reply/park gestures, web push) comes back with this purpose. Guard against what retired
-it: it was turning into an agent-orchestration harness. The feed is of *material*, not
-of agents.
+## The machine
+Pipelines that refine material stage by stage through the lens of his taste — e.g. game
+ideas → he reacts → prototypes → he reacts → … → a game he enjoys playing → published,
+earning. His whole job, ideally: a little feedback every day, scrolling a feed over lunch
+or before bed.
 
-**Lanes** (a sense, not a fixed list — user, 2026-10-08): posts, blogs, itch.io games,
-tiny tools, agent tools, agent kits, generative art, byproduct tools; parts maybe.
+- **One feed, many lanes.** Each lane moves material through stages; his reaction at a
+  stage decides what advances and how.
+- **Reactions are the training data.** Every verdict is kept; agents read the history
+  before making the next batch, so their taste converges on his.
+- **Tiller-shaped, not tiller.** The retired tiller (`archive/2026/tiller`: phone card
+  feed, reply/park gestures, web push) is the ancestor. What retired it: it drifted into
+  an agent-orchestration harness. Guard: **the feed holds material** (drafts,
+  prototypes, builds, listings) — never agents, sessions or controls. An agent that needs
+  a decision puts material in front of him and reads the reaction.
 
-**Inputs — not only him.** The system should also scrape value from everywhere,
-passively and actively: e.g. the evolution of `projects/`, his Claude usage logs. If
-fringe resumes, this kind of ingestion could live in fringe.
+**Lanes** — a sense, not a fixed list (user): posts, blogs, itch.io games, tiny tools,
+agent tools, agent kits, generative art, byproduct tools (boardwalk, jig…); parts maybe.
+All outlets must be free to list (see rules). Earlier idea inventory: `ideas.md`.
 
-## Settled
-- **The user's name can be on the company.** The one line: agents never post *as him*.
-  Agents may post under their own clearly-labelled account (platform bot labels on).
-- **House of brands.** Most products get their own storefront where their buyers already
-  are (Steam, Etsy, app stores, landing pages), with a footer credit linking back —
-  "made by recursive sloptaumatons".
-- **sloptaumatons.com = portfolio + services.** Every shipped product doubles as a case
-  study for the services (workshops, AI sprints, agent-readiness).
-- **Socials run on the company account** (decided 2026-10-08): agents post as
-  sloptaumatons, labelled as a bot; the user is editor, the voice is theirs.
-- **Social posts show the work** (artifacts, demos, documentary excerpts), never
-  engagement bait. The user's role is editor: approve or kill a queue, ~10 min/day.
+**Inputs — not only him** (user): scrape value passively and actively from everywhere.
+- His work: `projects/` as it evolves, Claude Code session logs (`~/.claude/projects/`),
+  documentary logs, kanban dreaming/someday cards, skills and wiki changes.
+- The world, **read only**: what sells (itch.io, Printables, Gumroad discover), stated
+  demand (upvoted GitHub feature requests, "is there a tool that…" threads), agent-
+  ecosystem gaps (empty MCP registry searches), calendars (jam themes, seasons).
+- Our own results: views, downloads, sales, engagement — fed back beside his verdicts.
+- **Hard guardrail (proposed):** anything from `~/life` (money, health, family) is
+  dropped at ingestion, in code — never left to an agent's discretion.
 
-## The social pipeline — first build (to be drafted)
-Harvest the post drafts already scattered across projects; generate new ones from the
-work logs on a schedule; queue them for the user to critique, approve and direct; learn
-from every verdict. **v.ibepost** (`projects/vibepost`, back from the archive 2026-10-08) becomes
-this pipeline's storefront — its design intent gets refactored, possibly drastically.
-The draft inventory lands there: `reports/post-draft-inventory.md` (branch
-`sloptaumatons-revival`).
-
-## Ideas
-The flagged inventory, sorted against the brand: `ideas.md`.
-
-## Ground rules (user, 2026-10-08) — guide all sloptaumaton work
+## Ground rules (user) — guide all sloptaumaton work
 - **Agents never post into human communities** (Reddit, forums, Discords…). If we post
-  there, the user writes it. Agents post only on the company's own labelled accounts.
+  there, he writes it. Agents post only on the company's own labelled accounts.
+- **Agents never post as him.** His name can be on the company; the company account is
+  the agents' voice, labelled as a bot; he is its editor.
 - **Spend stays below earnings.** Earnings are zero, so spend is zero: no ads, no new
-  domains (use paths/subdomains of sloptaumatons.com), no paid listings yet.
+  domains (paths/subdomains of sloptaumatons.com on GitHub Pages), no paid listings
+  (Steam, Etsy, Play Store wait for earnings).
 - **No services for now** — products only.
 
-## Goal and KPIs (user, 2026-10-08)
-See how much money we can make, how fast. KPIs: **speed and quantity** — without sucking,
-without eating his time (or at least being fun when it does). No single pick: **validate
-many ideas in parallel** by getting them in front of people in measurable ways, then
-focus where the reaction is.
+## Brand shape
+- **House of brands.** Products live on their own storefronts where buyers already are,
+  footer credit "made by recursive sloptaumatons" linking back.
+- **sloptaumatons.com = the portfolio**; every shipped product is a case study.
+- **Posts show the work** (artifacts, demos, documentary excerpts), never engagement bait.
+
+## The posts lane — v.ibepost
+`projects/vibepost` (back from `archive/2026`, 2026-10-08) becomes this lane's home; its
+original design intent (a multi-channel cross-poster) gets refactored, possibly
+drastically. Harvest list: `reports/post-draft-inventory.md` there — 76 tweet drafts +
+17 short scripts, all unposted, all written as "my AI" so they need rewriting in the
+company voice; 12 files are untracked, so copy them into the lane's store first.
 
 ## Open
-- Validation mechanism: how each idea meets people, and what counts as a signal.
-- Agent-readiness service: how to measure that it works (proposal: test agents making
-  real booking requests, track found/booked before vs. after).
+- Feed: standalone vs inside fringe (his call).
+- Which company accounts (Bluesky/Mastodon fit the drafts' lengths; X needs ≤280).
 - Footer link `recursive.sloptaumatons.com` needs a DNS subdomain (or use the apex).
-- Site's project list predates archive/2026 (v.ibepost was archived) — refresh it when
-  the site is next touched.
-- Proposed first social test: the bot account posts the first pen-plotter edition.
+- Site's project list predates the archive and the revival — refresh when next touched.
+- vibepost left the agents flake when archived; re-add only if its shell needs pinning.
 
-## Siblings
-Monorepo branch `sloptaumatons-revival` adds the kanban card `sloptaumatons.com`;
-vibepost branch `sloptaumatons-revival` holds the draft inventory.
+## Siblings (one task, branch per repo)
+- this repo: `revival`
+- agents monorepo: `sloptaumatons-revival` — kanban card `sloptaumatons.com`
+- vibepost: `sloptaumatons-revival` — the draft inventory
 Related earlier sketch: `projects/sloptaumaton-learning-study-engine/`.

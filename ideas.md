@@ -1,6 +1,7 @@
 # Ideas the user flagged (brainstorm, 2026-10-08)
 
-His own word for each in quotes. Everything here sits under sloptaumatons.
+His own word for each in quotes. History, not the plan: services are paused and the
+lanes in `status.md` supersede this sorting.
 
 ## Core — openly machine-made, and that's the pitch
 - Paid tools agents call and pay per use — the LLM-era tool webpage ("excellent")
