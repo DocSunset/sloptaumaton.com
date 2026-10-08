@@ -20,7 +20,7 @@ site (`index.html`, `why.html` — the prospectus is the brand voice; read it fi
 ## The social pipeline — first build (to be drafted)
 Harvest the post drafts already scattered across projects; generate new ones from the
 work logs on a schedule; queue them for the user to critique, approve and direct; learn
-from every verdict. **v.ibepost** (`archive/2026/vibepost`, to be un-archived) becomes
+from every verdict. **v.ibepost** (`projects/vibepost`, back from the archive 2026-10-08) becomes
 this pipeline's storefront — its design intent gets refactored, possibly drastically.
 The draft inventory lands there: `reports/post-draft-inventory.md` (branch
 `sloptaumatons-revival`).
