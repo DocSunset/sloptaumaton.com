@@ -28,8 +28,14 @@ The draft inventory lands there: `reports/post-draft-inventory.md` (branch
 ## Ideas
 The flagged inventory, sorted against the brand: `ideas.md`.
 
+## Goal and KPIs (user, 2026-10-08)
+See how much money we can make, how fast. KPIs: **speed and quantity** — without sucking,
+without eating his time (or at least being fun when it does). No single pick: **validate
+many ideas in parallel** by getting them in front of people in measurable ways, then
+focus where the reaction is.
+
 ## Open
-- Pick a first venture. Proposed sort: cash in 90 days vs. hours/week of his time.
+- Validation mechanism: how each idea meets people, and what counts as a signal.
 - Agent-readiness service: how to measure that it works (proposal: test agents making
   real booking requests, track found/booked before vs. after).
 - Footer link `recursive.sloptaumatons.com` needs a DNS subdomain (or use the apex).
