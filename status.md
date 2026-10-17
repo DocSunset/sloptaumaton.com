@@ -61,6 +61,10 @@ All outlets must be free to list (see rules). Earlier idea inventory: `ideas.md`
   domains (paths/subdomains of sloptaumatons.com on GitHub Pages), no paid listings
   (Steam, Etsy, Play Store wait for earnings).
 - **No services for now** — products only.
+- **Agents own their merges** (user, 2026-10-17): "I should not need to authorize these merges.
+  You guys (ultimately, you specifically) own the feed and any repos related to it." Each
+  sloptaumatons agent merges its branches to its own repo's main (`--no-ff`, never push); the
+  sloptaumautomatic orchestrator is accountable for all of them.
 
 ## Brand shape
 - **House of brands.** Products live on their own storefronts where buyers already are,
