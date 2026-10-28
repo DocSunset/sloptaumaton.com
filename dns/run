@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# dns/run <dnscontrol args…> — runs DNSControl against Porkbun with the keys from
+# ~/.config/porkbun.json (never in git). Usage: dns/run preview | dns/run push
+set -euo pipefail
+cd "$(dirname "$0")"
+K=${PORKBUN_KEYS:-$HOME/.config/porkbun.json}
+export PORKBUN_API_KEY="$(jq -r '.apikey // .api_key' "$K")"
+export PORKBUN_SECRET_API_KEY="$(jq -r '.secretapikey // .secret_key // .secret_api_key' "$K")"
+exec nix run nixpkgs#dnscontrol -- "$@"
